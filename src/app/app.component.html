@@ -1,0 +1,11 @@
+<h1>Angular material</h1>
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+<ul>
+    <ng-container *ngFor="let items of arregloInterface">
+        <li *ngIf="bono">
+            {{items.nombre}} {{items.costos}}
+        </li>
+    </ng-container>
+</ul>
+<button (click)="mostrar()">mostrar/ocultar</button>
+
